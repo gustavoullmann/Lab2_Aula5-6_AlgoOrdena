@@ -3,16 +3,34 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		int[] list1 = new int[] {5, 9, 4, 2, 8, 1};
-		int[] list2 = new int[] {5, 9, 4, 2, 8, 1};
-		int[] list3 = new int[] {5, 9, 4, 2, 8, 1};
+		System.out.println("\n" + "Array Shuffle");
+		ArraysTeste arrayShuffle1 = new ArraysTeste(10);
+		arrayShuffle1.fillArrayAscending();
+		arrayShuffle1.randomizeArray();
+		arrayShuffle1.printArray();
+		System.out.println("\n" + "Ordenado Bubble Sort");
+		arrayShuffle1.bubbleSort();
+		arrayShuffle1.printArray();
 		
-		SortAlgorithm.bubbleSort(list1);
+		System.out.println("\n" + "Array Shuffle ");
+		ArraysTeste arrayShuffle2 = new ArraysTeste(10);
+		arrayShuffle2.fillArrayAscending();
+		arrayShuffle2.randomizeArray();
+		arrayShuffle2.printArray();
+		System.out.println("\n" + "Ordenado Insert Sort");
+		arrayShuffle2.insertSort();
+		arrayShuffle2.printArray();
+
+		System.out.println("\n" + "Array Shuffle ");
+		ArraysTeste arrayShuffle3 = new ArraysTeste(10);
+		arrayShuffle3.fillArrayAscending();
+		arrayShuffle3.randomizeArray();
+		arrayShuffle3.printArray();
+		System.out.println("\n" + "Ordenado Selection Sort");
+		arrayShuffle3.selectSort();
+		arrayShuffle3.printArray();
 		
-		System.out.println("Bubble Sort:");
-		for(int i = 0; i < list1.length; i++) {
-			System.out.print(list1[i]);
-		}
+
 		
 //		System.out.println();
 //		
