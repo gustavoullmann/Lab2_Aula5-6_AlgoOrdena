@@ -14,6 +14,8 @@ public class Main {
 			System.out.print(list1[i]);
 		}
 		
+		System.out.println("teste");
+		
 //		System.out.println();
 //		
 //		SortAlgorithm.insertSort(list2);
